@@ -1,9 +1,16 @@
 # Screen-HandWriting
-这是在屏幕上手写生成的数字图片集，每个数字的图片打包为一个zip
-##图片格式
+This is an image database of screen-handwritten digits.
+
+It's well-known that MNIST is the main image database of handwritten digits. But there's a big difference between handwriting by pens and by fingers on screens. If we use the training set of MNIST to predict digits writting on phones by fingers, the result would be bad.
+
+So we're gathering these screen-handwritten digits and make it opensource.
+
+Hope it helps.
+
+##Image Format
 png
-##图片分布
-数字 | 数量
+##Image Amount
+Digit | Amount
 ----|------
 0 |3119 
 1 |2038 
@@ -15,5 +22,6 @@ png
 7 |703 
 8 |1097 
 9 |757
-##图片来源
-广东数相智能科技有限公司
+
+##Image Source
+Matview Co., Ltd.
